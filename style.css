@@ -1,6 +1,10 @@
-body {font-family: Arial, Helvetica, sans-serif;
-background: url("alps.jpg") no-repeat;
-background-size: 100%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(alps.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h2 {
     color: white;
