@@ -16,8 +16,9 @@ window.onclick = function(event) {
     if (event.target == modal) {
     modal.style.display = "none";
     }
-    function myFunction() {
-        modalContent.classList.remove("animated zoomInUp delay-2s");
-        modalContent.classList.add("animated zoomOutRight delay-2s");
-    }
+   
+}
+function myFunction() {
+    modalContent.classList.remove("animated zoomInUp delay-2s modal-content");
+    modalContent.classList.add("animated zoomOutRight delay-2s modal-content");
 }
