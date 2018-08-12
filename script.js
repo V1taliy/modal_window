@@ -21,7 +21,7 @@ function myFunction() {
     setTimeout(function() {
         modal.style.display = "none";
         modalContent.classList.remove("animated", "zoomOutRight", "delay-2s", "modal-content");
-        modalContent.classList.add("animated", "zoomInUp", "delay-2s", "modal-content");
+        modalContent.classList.add("animated", "zoomInUp", "delay-2s", "modal-content"); 
     }, 500
 )
     }
